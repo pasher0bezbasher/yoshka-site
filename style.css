@@ -957,4 +957,75 @@ p {
         line-height: 1.4;
     }
 }
+  @media (max-width: 480px) {
+    .container {
+        width: 94%;
+    }
+
+    .hero-content {
+        padding-top: 105px;
+    }
+
+    .hero h1 {
+        max-width: 260px;
+        font-size: 30px;
+    }
+
+    .hero-text {
+        max-width: 270px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .features,
+    .advantages,
+    .contact,
+    .map-section,
+    .route-points,
+    .tour-format,
+    .intro-panel {
+        padding: 36px 0;
+    }
+
+    .features h2,
+    .advantages h2,
+    .contact h2,
+    .map-section h2,
+    .route-points h2,
+    .tour-format h2,
+    .intro-card h2 {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    .intro-card,
+    .format-card,
+    .card,
+    .contact-form {
+        padding: 18px 14px;
+        border-radius: 16px;
+    }
+
+    .route-card-content {
+        padding: 16px;
+    }
+
+    .route-card h3,
+    .format-card h3,
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .map-box iframe {
+        height: 240px;
+    }
+
+    .footer {
+        padding: 16px 0;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
 }
