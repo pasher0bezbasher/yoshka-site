@@ -795,4 +795,166 @@ p {
   .route-card img {
     height: 220px;
   }
+  @media (max-width: 768px) {
+    .container {
+        width: min(100%, 94%);
+    }
+
+    .features,
+    .advantages,
+    .contact,
+    .map-section,
+    .route-points,
+    .tour-format,
+    .intro-panel {
+        padding: 42px 0;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 36px 0 44px;
+    }
+
+    .hero-content {
+        padding-top: 120px;
+    }
+
+    .hero h1 {
+        max-width: 300px;
+        margin: 0 auto 16px;
+        font-size: clamp(32px, 9vw, 44px);
+        line-height: 1.08;
+    }
+
+    .hero-text {
+        max-width: 300px;
+        margin: 0 auto 24px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .btn {
+        padding: 13px 22px;
+        font-size: 15px;
+    }
+
+    .features h2,
+    .advantages h2,
+    .contact h2,
+    .map-section h2,
+    .route-points h2,
+    .tour-format h2,
+    .intro-card h2 {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+
+    .section-tag {
+        margin-bottom: 12px;
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+
+    .intro-card {
+        padding: 28px 18px;
+        border-radius: 18px;
+    }
+
+    .intro-card p:last-child,
+    .map-text,
+    .route-card p,
+    .format-card p,
+    .card p,
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select {
+        font-size: 15px;
+        line-height: 1.55;
+    }
+
+    .intro-grid,
+    .format-grid,
+    .route-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .route-card img {
+        height: 210px;
+    }
+
+    .route-card-content,
+    .format-card,
+    .card {
+        padding: 20px 18px;
+    }
+
+    .route-card h3,
+    .format-card h3,
+    .card h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .contact-form {
+        padding: 22px 18px;
+        border-radius: 16px;
+    }
+
+    .contact-form legend {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select,
+    .contact-form button {
+        font-size: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select {
+        padding: 12px 14px;
+        margin-bottom: 16px;
+    }
+
+    .contact-form textarea {
+        min-height: 120px;
+    }
+
+    .contact-form button {
+        width: 100%;
+        padding: 13px 18px;
+    }
+
+    .map-section {
+        padding: 38px 0 42px;
+    }
+
+    .map-text {
+        max-width: 100%;
+        margin: 0 auto 16px;
+    }
+
+    .map-box {
+        margin-top: 18px;
+        border-radius: 18px;
+    }
+
+    .map-box iframe {
+        height: 300px;
+    }
+
+    .footer {
+        padding: 22px 0;
+    }
+
+    .footer p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+}
 }
