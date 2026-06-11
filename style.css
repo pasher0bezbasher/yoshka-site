@@ -289,44 +289,6 @@ p {
     color: var(--text);
 }
 
-.intro-card-ornament::before,
-.intro-card-ornament::after {
-  content: "";
-  position: absolute;
-  left: 22px;
-  right: 22px;
-  height: 12px;
-  background-image:
-    linear-gradient(
-      45deg,
-      transparent 0 22%,
-      rgba(227, 83, 54, 0.32) 22% 34%,
-      transparent 34% 66%,
-      rgba(227, 83, 54, 0.32) 66% 78%,
-      transparent 78% 100%
-    ),
-    linear-gradient(
-      -45deg,
-      transparent 0 22%,
-      rgba(227, 83, 54, 0.32) 22% 34%,
-      transparent 34% 66%,
-      rgba(227, 83, 54, 0.32) 66% 78%,
-      transparent 78% 100%
-    );
-  background-size: 20px 12px;
-  background-repeat: repeat-x;
-  background-position: center;
-  pointer-events: none;
-}
-
-.intro-card-ornament::before {
-  top: 16px;
-}
-
-.intro-card-ornament::after {
-  bottom: 16px;
-}
-
 .intro-card h2 {
   margin: 0 0 18px;
   font-size: 38px;
